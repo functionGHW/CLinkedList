@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1189868556 source:d:\users\codeblocks\clinkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1189868556 source:d:\users\github\clinkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+
