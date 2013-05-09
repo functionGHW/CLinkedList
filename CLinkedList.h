@@ -1,8 +1,8 @@
 /* Project:     Linked List for C
  * File:        CLinkedList.h
  * Coder:       FunctionGHW
- * Version:     1.0
- * Last Change: 2013-4-26
+ * Version:     1.1
+ * Last Change: 2013-5-9
  * Description: Interface of linked list using C.
  *              Finally, I decide to write a doubly linked list.
  *              Note: We assume that users only operate the list by functions declared here.
@@ -13,12 +13,10 @@
 
 #include <stddef.h>
 
- /*
-#ifndef BYTE
-#define BYTE unsigned char
-#endif
- */
+#ifndef TYPEDEF_BYTE
+#define TYPEDEF_BYTE
 typedef unsigned char BYTE;
+#endif
 
 struct LinkedList;
 struct LnkLstNode;
